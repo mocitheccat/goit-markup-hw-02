@@ -5,6 +5,7 @@
   --contacts-item-color: #434455;
   --navy-blue-color: #2e2f42;
   --cloud-color: #f4f4fd;
+  --hover-btn-color: #404bbf;
 }
 
 body {
@@ -96,7 +97,8 @@ body {
 }
 
 .short-bnf,
-.member-name {
+.member-name,
+.card-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2em;
@@ -106,7 +108,8 @@ body {
 
 .desc-bnf,
 .member-position,
-.footer-slogan {
+.footer-slogan,
+.card-desc {
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -136,4 +139,25 @@ body {
 
 .footer-span {
   color: var(--cloud-color);
+}
+
+.filter-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--cloud-color);
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  color: #ffffff;
+  background-color: var(--hover-btn-color);
+}
+
+.filter-btn:focus {
+  color: #ffffff;
+  background-color: var(--hover-btn-color);
 }
