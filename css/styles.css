@@ -1,9 +1,62 @@
 :root {
   --bg-color: #ffffff;
+  --logo-color: #4d5ae5;
+  --studio-color: #2e2f42;
+  --contact-into-item-color: #434455;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--bg-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.web-span {
+  color: #2e2f42;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--studio-color);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: #404bbf;
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.contact-info-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--contact-into-item-color);
+}
+
+.contact-info-item:hover,
+.contact-info-item:focus {
+  color: #404bbf;
 }
