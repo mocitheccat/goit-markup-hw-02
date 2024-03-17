@@ -3,7 +3,8 @@
   --logo-color: #4d5ae5;
   --nav-item-color: #2e2f42;
   --contacts-item-color: #434455;
-  --hero-bg-color: #2e2f42;
+  --navy-blue-color: #2e2f42;
+  --cloud-color: #f4f4fd;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
   text-decoration: none;
 }
 
-.web-span {
+.header-span {
   color: #2e2f42;
 }
 
@@ -62,8 +63,9 @@ body {
 .contacts-item:focus {
   color: #404bbf;
 }
-.hero {
-  background-color: var(--hero-bg-color);
+.hero,
+.footer {
+  background-color: var(--navy-blue-color);
 }
 .slogan {
   font-size: 56px;
@@ -93,16 +95,45 @@ body {
   background-color: #404bbf;
 }
 
-.short-bnf {
+.short-bnf,
+.member-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2em;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue-color);
 }
 
-.desc-bnf {
+.desc-bnf,
+.member-position,
+.footer-slogan {
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+}
+
+.section-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11em;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue-color);
+}
+
+.team-info {
+  background-color: #f4f4fd;
+}
+
+.member-info {
+  background-color: #fff;
+}
+
+.footer-slogan {
+  color: var(--cloud-color);
+}
+
+.footer-span {
+  color: var(--cloud-color);
 }
